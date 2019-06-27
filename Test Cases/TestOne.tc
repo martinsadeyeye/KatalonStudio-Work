@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test to run Obj.GetCountryListByName</description>
+   <name>TestOne</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2683cce1-5dc6-47df-a64d-a6fcab404dd7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Capital Getting its request from Country Response</description>
+   <name>TestTwo_APIChainingCapGetfromCoun</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d44435a9-3b61-4bd9-955a-2f9b5769074c</testCaseGuid>
+</TestCaseEntity>
