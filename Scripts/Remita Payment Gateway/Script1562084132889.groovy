@@ -13,19 +13,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response1 = WS.sendRequest(findTestObject('CountryInfoSOAPService/GetCountryListByName'))
-
-//How to pass value from a response to a request
-String xml1 = response1.responseBodyContent
-
-def dataValue = new XmlSlurper().parseText(xml1)
-
-def countryCode = dataValue.ListOfCountryNamesByNameResult.tCountryCodeAndName[2].sISOCode.text()
-
-GlobalVariable.countryCode = countryCode
-
-println('...Value for Global Variable is : ' + GlobalVariable.countryCode)
-
-// passing value to the getcapital request
-WS.sendRequestAndVerify(findTestObject('CountryInfoSOAPService/GetCapitalCity'))
+WS.sendRequest(findTestObject('Remita Payment Gateway/AddAccount'))
 

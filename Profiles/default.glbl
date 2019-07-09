@@ -6,7 +6,37 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'NG'</initValue>
       <name>countryCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1509377912187'</initValue>
+      <name>ServiceTypeID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C0000115401'</initValue>
+      <name>BillerID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'100216915198'</initValue>
+      <name>RRR</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://192.9.200.209:6200/microservice/remita/gateway/send/api/bgatesvc/billing'</initValue>
+      <name>g_base_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1509377912186'</initValue>
+      <name>customerfiled_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>ValidateReq</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
