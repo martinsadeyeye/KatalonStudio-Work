@@ -65,6 +65,8 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 assertThat(response.getResponseText()).contains('2LEVEL TECHNOLOGIES')
 WS.verifyElementPropertyValue(response, 'responseData[273].id', &quot;C0000115401&quot;)
 WS.verifyElementPropertyValue(response, 'responseData[273].description', &quot;Prado Lee Nig&quot;)
-WS.verifyElementPropertyValue(response, 'responseData[273].label', &quot;Prado Lee Nig&quot;)</verificationScript>
+WS.verifyElementPropertyValue(response, 'responseData[273].label', &quot;Prado Lee Nig&quot;)
+WS.verifyElementPropertyValue(response, 'responseData[1].description', &quot; GLEE CORPORATIONS&quot;)
+WS.verifyElementPropertyValue(response, 'responseData[1].label', &quot; GLEE CORPORATIONS&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
